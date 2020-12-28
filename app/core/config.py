@@ -3,6 +3,7 @@ from os.path import abspath
 from os.path import dirname
 
 from pydantic import BaseSettings
+from fastapi.staticfiles import StaticFiles
 
 
 class Settings(BaseSettings):
